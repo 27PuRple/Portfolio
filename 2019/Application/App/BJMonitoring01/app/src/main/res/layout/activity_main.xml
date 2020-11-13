@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<!---
+    <Button
+        android:id="@+id/page1"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+
+        android:layout_marginTop="100dp"
+        android:text="데이터 확인"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/page2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+
+        android:layout_marginTop="95dp"
+        android:text="6개 데이터 확인"
+        app:layout_constraintTop_toBottomOf="@+id/page1"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/page3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+
+        android:layout_marginTop="95dp"
+        android:text="긴급 메시지"
+        app:layout_constraintTop_toBottomOf="@+id/page2"
+        tools:layout_editor_absoluteX="0dp" />
+
+    -->
+        <Button
+            android:id="@+id/page3"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+
+            android:layout_marginBottom="65dp"
+            android:text="메시지 전송"
+            app:layout_constraintBottom_toTopOf="@+id/Previousness"
+            tools:layout_editor_absoluteX="42dp" />
+
+        <Button
+            android:id="@+id/page1"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+
+            android:text="비디오 재생"
+            app:layout_constraintBottom_toTopOf="@+id/web_page"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.851"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/web_page"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="28dp"
+
+            android:text="실시간 모니터링"
+            app:layout_constraintBottom_toTopOf="@+id/page2"
+            tools:layout_editor_absoluteX="0dp" />
+
+
+        <Button
+            android:id="@+id/page2"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+
+            android:layout_marginBottom="32dp"
+            android:text="데이터 확인"
+            app:layout_constraintBottom_toTopOf="@+id/page3"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/Previousness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="changebtn"
+            android:text="PIN 비밀번호 변경"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.898" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

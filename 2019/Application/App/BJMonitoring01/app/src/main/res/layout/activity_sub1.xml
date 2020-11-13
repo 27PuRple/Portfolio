@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sub1Activity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="409dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="70dp"
+        android:background="#05000000"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow android:gravity="center">
+
+            <TextView
+                android:id="@+id/volA_name"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="#22000000"
+                android:gravity="center"
+                android:text="A 전압"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/volA"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="#0A000000"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/curA_name"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="#22000000"
+                android:gravity="center"
+                android:text="A 전류"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/curA"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="#0A000000"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <TextView
+                android:id="@+id/volB_name"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="#22000000"
+                android:gravity="center"
+                android:text="B 전압"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/volB"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="#0A000000"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/curB_name"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="#22000000"
+                android:gravity="center"
+                android:text="B 전류"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/curB"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="#0A000000"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <TextView
+                android:id="@+id/volC_name"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="#22000000"
+                android:gravity="center"
+                android:text="C 전압"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/volC"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="#0A000000"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/curC_name"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="#22000000"
+                android:gravity="center"
+                android:text="C 전류"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/curC"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_margin="1dp"
+                android:background="#0A000000"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout">
+
+
+        <Button
+            android:id="@+id/btn_em"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:onClick="em_btn"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="긴급"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
