@@ -1,3 +1,79 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title> PuRple </title>
+    <meta charset = "utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1> OpenWeatherMap </h1>
+    <p id="newweather"> Text </p>
+    <button onclick="APIbuttonClicked()"> API button </button>
+    <button onclick="clearbutton()"> Weather1 </button>
+    <button onclick="cloudsbutton()"> Weather2 </button>
+    <button onclick="rainbutton()"> Weather3 </button>
+    <button onclick="snowbutton()"> Weather4 </button>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io.connect();
+      
+      function APIbuttonClicked() {
+        socket.emit('APIclick');
+      }
+      
+      socket.on('APIUpdate', function(data) {
+        document.getElementById("newweather").innerHTML = data;
+      });
+      
+      function clearbutton() {
+        socket.emit('oneclick');
+      }
+      
+      socket.on('clearUpdate', function(data) {
+        document.getElementById("newweather").innerHTML = data;
+      });
+      
+      function cloudsbutton() {
+        socket.emit('twoclick');
+      }
+      
+      socket.on('cloudsUpdate', function(data) {
+        document.getElementById("newweather").innerHTML = data;
+      });
+      
+      function rainbutton() {
+        socket.emit('threeclick');
+      }
+      
+      socket.on('rainUpdate', function(data) {
+        document.getElementById("newweather").innerHTML = data;
+      });
+      
+      function snowbutton() {
+        socket.emit('fourclick');
+      }
+      
+      socket.on('snowUpdate', function(data) {
+        document.getElementById("newweather").innerHTML = data;
+      });
+      
+      socket.on('goUpdate', function(data) {
+        document.getElementById("newweather").innerHTML = data;
+      });
+      
+      socket.on('backUpdate', function(data) {
+        document.getElementById("newweather").innerHTML = data;
+      });
+      
+      socket.on('leftUpdate', function(data) {
+        document.getElementById("newweather").innerHTML = data;
+      });
+      
+      socket.on('rightUpdate', function(data) {
+        document.getElementById("newweather").innerHTML = data;
+      });
+      
+    </script>
+  </body>
 </html>
