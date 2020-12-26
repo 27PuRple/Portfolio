@@ -65,6 +65,7 @@ void setup() {
     delay(1000);
   }
 
+  // 네트워크 설정
   WiFiMulti.addAP("SSID", "Password");
 
   while(WiFiMulti.run() != WL_CONNECTED) {
@@ -75,6 +76,7 @@ void setup() {
   webSocket.on("movebackUpdate", movebackUpdate);
   webSocket.on("moveleftUpdate", moveleftUpdate);
   webSocket.on("moverightUpdate", moverightUpdate);
+  // 소켓 통신 주소 설정
   webSocket.begin("IP_Address", "port");
 }
 
