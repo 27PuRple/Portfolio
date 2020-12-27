@@ -1,5 +1,7 @@
 # 정기윤의 포트폴리오
 ## 전동 스케이트보드 - Free Wheel <2018>
+### 작품 개요
+평소 스케이트보드를 타는 취미를 가지고 있고, 보유중인 스케이트보드를 만화에 나오는 전동 스케이트보드로 만들어보고자 프로젝트를 진행함.
 ### 작품 이미지
 <img src="https://user-images.githubusercontent.com/44526808/103165263-e585b880-4858-11eb-847f-20c621ba6cd6.png"></img>
 <img src="https://user-images.githubusercontent.com/44526808/103165256-c5ee9000-4858-11eb-8fbc-8a0c45dfa1ab.png"></img>
