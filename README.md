@@ -1,7 +1,7 @@
 # 정기윤의 포트폴리오
 ## 전동 스케이트보드 - Free Wheel <2018>
 ### 작품 이미지
-<img src="https://user-images.githubusercontent.com/44526808/103165212-29c48900-4858-11eb-86e2-3f1363cd1e56.jpg" width="50%"></img>
+<img src="https://user-images.githubusercontent.com/44526808/103165212-29c48900-4858-11eb-86e2-3f1363cd1e56.jpg" width="35%"></img>
 
 ### 작품 설명
 + 아두이노와 BLDC 모터를 사용하여 기존 스케이트보드를 전동 스케이트보드로 제작.
