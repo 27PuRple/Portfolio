@@ -2,6 +2,7 @@
 ## 전동 스케이트보드 - Free Wheel <2018>
 ### 작품 이미지
 <img src="https://user-images.githubusercontent.com/44526808/103165212-29c48900-4858-11eb-86e2-3f1363cd1e56.jpg" width="35%"></img>
+<img src="https://user-images.githubusercontent.com/44526808/103165256-c5ee9000-4858-11eb-8fbc-8a0c45dfa1ab.png"></img>
 
 ### 작품 설명
 + 아두이노와 BLDC 모터를 사용하여 기존 스케이트보드를 전동 스케이트보드로 제작.
