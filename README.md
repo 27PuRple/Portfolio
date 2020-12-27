@@ -11,6 +11,9 @@
 + 가속도 센서를 사용하여 좌우로 기울어지는 각도를 측정하여 탑승자가 넘어질 것 같으면 속도를 줄이고 Buzzer로 경고음 알림.
 
 ## 무선조종 밸런싱로봇 - Balancing Robot <2018>
+### 작품 이미지
+<img src="https://user-images.githubusercontent.com/44526808/103165859-3e0c8400-4860-11eb-9fe2-e3c6d915a725.png"></img>
+<img src="https://user-images.githubusercontent.com/44526808/103165860-4238a180-4860-11eb-93b0-681cf14e400a.png"></img>
 
 ## 스마트 원예 시스템 - Smart Flower Garden <2019>
 
