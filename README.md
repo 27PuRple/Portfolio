@@ -5,8 +5,7 @@ https://github.com/27PuRple/Portfolio/tree/main/2018/Free_Wheel
 
 ## 무선조종 밸런싱로봇 - Balancing Robot <2018>
 ### 이미지
-<img src="https://user-images.githubusercontent.com/44526808/103165859-3e0c8400-4860-11eb-9fe2-e3c6d915a725.png"></img>
-<img src="https://user-images.githubusercontent.com/44526808/103165860-4238a180-4860-11eb-93b0-681cf14e400a.png"></img>
+https://github.com/27PuRple/Portfolio/tree/main/2018/Balancing_Robot
 
 ## 스마트 원예 시스템 - Smart Flower Garden <2019>
 ### 프로젝트 개요
