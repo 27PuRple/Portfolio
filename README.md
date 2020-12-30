@@ -1,7 +1,7 @@
 # 정기윤의 포트폴리오
 ## 전동 스케이트보드 - Free Wheel <2018>
 ### 링크
-https://github.com/27PuRple/Portfolio/2018/Free_Wheel
+https://github.com/27PuRple/Portfolio/tree/main/2018/Free_Wheel
 
 ## 무선조종 밸런싱로봇 - Balancing Robot <2018>
 ### 이미지
