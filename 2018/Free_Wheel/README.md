@@ -4,7 +4,7 @@
 만들어서 타고자 보유중인 스케이트보드를 가지고 프로젝트를 진행함.
 
 ## 이미지
-<table>
+<table text-align:center;>
   <tr>
     <td><img src="https://user-images.githubusercontent.com/44526808/103165263-e585b880-4858-11eb-847f-20c621ba6cd6.png"></img></td>
     <td><img src="https://user-images.githubusercontent.com/44526808/103165256-c5ee9000-4858-11eb-8fbc-8a0c45dfa1ab.png"></img></td>
