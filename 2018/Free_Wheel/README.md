@@ -11,7 +11,7 @@
     <td><img src="https://user-images.githubusercontent.com/44526808/103165272-f9311f00-4858-11eb-8c07-2e13904503c7.png"></img></td>
   </tr>
   <tr>
-    <td style="text-align:center">전동 스케이트보드 외형</td>
+    <td text-align:center>전동 스케이트보드 외형</td>
     <td>스케이트보드 제어부</td>
     <td>애플리케이션 모습</td>
   </tr>
