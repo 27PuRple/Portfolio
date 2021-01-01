@@ -14,3 +14,10 @@
 + 애플리케이션을 제작하여 블루투스 통신으로 스케이트보드 조작.
 + 가속도 센서를 사용하여 좌우로 기울어지는 각도를 측정하여 탑승자가 넘어질 것 같으면 속도를 줄이고 Buzzer로 경고음 알림.
 + 스케이트보드 후면에 LED를 부착하여 애플리케이션 버튼에 따라 작동 및 자동차 테일램프(후미등) 역할을 함.
+
+## 개발 환경
++ 언어 : C
++ OS : Windows 10
++ 개발 보드 : Arduino Uno
++ 개발 툴 : Arduino IDE, App Inventor, Autodesk Inventor(3D Printing)
++ 사용 부품 : LED 적색, Buzzer, 가속도 센서(MPU-6050), 블루투스 모듈(HC-06), BLDC 모터, ESC 변속기, 22.2V LiPo 배터리
