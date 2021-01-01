@@ -5,7 +5,7 @@
 Open API를 사용하여 날씨 데이터를 받아 자동으로 화단과 화분을 관리하며, 필요에 따라 애플리케이션으로 직접 제어를 함.
 
 ## 이미지
-| <img src="https://user-images.githubusercontent.com/44526808/103440504-95a85680-4c89-11eb-968f-9af8e9667669.png"></img> | <img src="https://user-images.githubusercontent.com/44526808/103400087-319d6980-4b87-11eb-89a4-d1a6936acc2a.png"></img> | <img src="https://user-images.githubusercontent.com/44526808/103400119-4e39a180-4b87-11eb-9089-b0fd39d4e4d6.png"></img><img src="https://user-images.githubusercontent.com/44526808/103400141-601b4480-4b87-11eb-9345-f56ae056e7de.png"></img><img src="https://user-images.githubusercontent.com/44526808/103400163-70cbba80-4b87-11eb-9b61-f7f29c6d4bf7.png"></img> |
+| <img src="https://user-images.githubusercontent.com/44526808/103440504-95a85680-4c89-11eb-968f-9af8e9667669.png"></img> | <img src="https://user-images.githubusercontent.com/44526808/103400087-319d6980-4b87-11eb-89a4-d1a6936acc2a.png"></img> | <img src="https://user-images.githubusercontent.com/44526808/103440525-bf617d80-4c89-11eb-9b3e-347f4a14b8e5.png"></img><img src="https://user-images.githubusercontent.com/44526808/103440535-d56f3e00-4c89-11eb-8f14-ab43c28206d9.png"></img><img src="https://user-images.githubusercontent.com/44526808/103440541-e0c26980-4c89-11eb-8a55-00310e8b4f07.png"></img> |
 |:---:|:---:|:---:|
 | Open API 사용화면 | 시스템 외형 시뮬레이션 | 화단 및 화분을 제어하는 애플리케이션 화면 |
 
