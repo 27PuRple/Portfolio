@@ -15,6 +15,6 @@ https://github.com/27PuRple/Portfolio/tree/main/2019/Smart_Flower_Garden
 ### 링크
 https://github.com/27PuRple/Portfolio/tree/main/2019/Application
 
-## LiDAR 센서를 사용한 서빙로봇 - Auto Serving <2020>
+## QR코드를 통한 주문 시스템 & SLAM을 활용한 서빙로봇 - Auto Serving <2020>
 ### 링크
 https://github.com/27PuRple/Portfolio/tree/main/2020/Auto_Serving
