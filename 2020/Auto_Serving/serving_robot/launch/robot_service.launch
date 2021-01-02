@@ -1,0 +1,5 @@
+<launch>
+  <rosparam file="$(find serving_robot)/param/target_pose.yaml" command="load" />
+
+  <node pkg="serving_robot" type="robot_service" name="robot_service" output="screen" />
+</launch>
